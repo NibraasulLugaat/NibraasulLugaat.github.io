@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="dfg.css">
+</head>
+<body>
+  <video id="background-video" autoplay loop muted
+   src="main_1___look_1.mp4" type="video/mp4">  
+
+  </video>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="Picture3.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 /7</div>
+  <img src="Picture6.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="Picture7.png" style="width:100%">
+  
+</div>
+	
+	<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <img src="Picture4.png" style="width:100%">
+ 
+</div>
+	
+	<div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <img src="Picture5.png" style="width:100%">
+ 
+</div>
+	
+	<div class="mySlides fade">
+  <div class="numbertext">6 / 7</div>
+  <img src="Picture8.png" style="width:100%">
+  
+</div>
+
+	<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="Picture1.png" style="width:100%">
+  
+</div>
+	<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="17275256.jpg" style="width:100%; height: 100%">
+  <div class="text">
+	  <a href="../Week 2/KBC/index.html">
+	   <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+	 PLAY THE GAME!</a></div>
+</div>
+
+	
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+	<span class="dot" onclick="currentSlide(6)"></span>
+	<span class="dot" onclick="currentSlide(7)"></span>
+
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
