@@ -56,7 +56,20 @@ function onSignInClicked() {
             console.log('user failed to sign in')
         })
     })
-}</script>
+}
+
+class UserAvatarComponent extends React.Component {
+    ...
+    componentDidMount() {
+        gapi.load('auth2', function() {
+            gapi.auth2.isSignedIn.listen(function(isSignedIn) {
+                console.log('user signed in ', isSignedIn)
+                this.setState({status: isSignedIn})
+            })
+        })
+    }    
+}
+</script>
   <div id="greeting">
     You are not authorized to view this content
   </div>
