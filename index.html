@@ -69,6 +69,13 @@ class UserAvatarComponent extends React.Component {
         })
     }    
 }
+
+function isUserSignedIn() {
+  gapi.load('auth2', function() {
+      var isSignedIn = auth2.isSignedIn.get();
+      console.log('is signed in? ', isSigned In)
+  })
+}
 </script>
   <div id="greeting">
     You are not authorized to view this content
