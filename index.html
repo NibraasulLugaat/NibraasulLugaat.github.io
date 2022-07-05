@@ -38,6 +38,24 @@
 	<title>Nibraas</title>	
 </head>
 <body>
+  <div id="greeting">
+    You are not authorized to view this content
+  </div>
+  <div id="dashboard">
+    ...
+  </div>
+  <script>
+    // hide initially
+    $('#dashboard').hide()
+
+    function onSignIn(googleUser) {
+      setTimeout(function() {
+        // show the content
+        $('#greeting').hide()
+        $('#dashboard').show()
+      }, 1000);
+    }
+  </script>
   <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
     <script>
       function onSignIn(googleUser) {
@@ -76,6 +94,17 @@
 
 
       
+    </script>
+    <script>
+      function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile()
+    if(profile.getEmail() === 'admin@example.com' ||
+       profile.getEmail() === 'client@example.com') {
+           // show the user dashboard
+    } else {
+        // show a Not Authorized message
+    }
+}
     </script>
 
 
