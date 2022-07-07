@@ -4,8 +4,6 @@
 
 .g-signin2 {
     position: absolute;
-    top: 50%;
-    left: 50%;
     margin-top: -150px;
     margin-left: 50px;
 }
