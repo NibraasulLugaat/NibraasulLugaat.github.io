@@ -3,9 +3,9 @@
 }
 
 .g-signin2 {
-    
-    top: 20%;
+    position: absolute;
+    top: 10%;
     left: 50%;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: -50px;
 }
