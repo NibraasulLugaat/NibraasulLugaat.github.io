@@ -10,7 +10,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
-	margin-top: 30px;
+	margin-top: 65px;
 	
 }
 	#background-video{
@@ -34,12 +34,14 @@ img {vertical-align: middle;}
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: black;
+  color: black ;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  height: 100px;
+  background-color: white;
 }
 
 /* Position the "next button" to the right */
