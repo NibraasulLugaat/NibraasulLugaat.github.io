@@ -3,9 +3,9 @@ const questions = [
         question:" ?المانيا",
         optionA: "Algeria",
         optionB: "Australia",
-        optionC: "Germany",
-        optionD: "Indonesia",
-        correctOption: "optionC"
+        optionC: "Indonesia",
+        optionD: "Germany",
+        correctOption: "optionD"
     },
 
     {
