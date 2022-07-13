@@ -1,6 +1,6 @@
 const questions = [
     {
-        question:" المانيا?",
+        question:" ?المانيا",
         optionA: "Algeria",
         optionB: "Australia",
         optionC: "Germany",
