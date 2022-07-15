@@ -1,110 +1,112 @@
 const questions = [
     {
-        question:" المانيا?",
-        optionA: "Algeria",
-        optionB: "Australia",
-        optionC: "Germany",
-        optionD: "Indonesia",
-        correctOption: "optionc"
-    },
-
-    {
-        question: "النمسا ?",
-        optionA: "Canada",
-        optionB: "Malaysia",
-        optionC: "Indonesia",
-        optionD: "Austria",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "سنغافورة ?",
-        optionA: "Singapore",
-        optionB: "China",
-        optionC: "Boston",
-        optionD: "Washington",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "الجزائر?",
-        optionA: "Norway",
-        optionB: "Kenya",
-        optionC: "Algeria",
-        optionD: "Morocco",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "اليابان?",
-        optionA: "Hongkong",
-        optionB: "Japan",
-        optionC: "Moscow",
-        optionD: "Sweden",
+        question: "What do you call fan in Arabic?",
+		imgSrc : "KBC2IMAGES/trans.png",
+        optionA: "المريحة",
+        optionB: "المروحة",
+        optionC: "المستريحة",
+        optionD: "المراحة",
         correctOption: "optionB"
     },
 
     {
-        question: "المجر?",
-        optionA: "Houston",
-        optionB: "California",
-        optionC: "Mexico",
-        optionD: "Hungary",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "الاردن?",
-        optionA: "Brazil",
-        optionB: "Jordan",
-        optionC: "Argentina",
-        optionD: "Spain",
+        question: "What do you call Electric kettle in Arabic?",
+		imgSrc : "KBC2IMAGES/trans.png",
+        optionA: "حارة كهربائية",
+        optionB: "غلاية كهربائية",
+        optionC: "ساخنة كهربائية",
+        optionD: "غلاية ساخنة",
         correctOption: "optionB"
     },
 
     {
-        question: "سويسرا ?",
-        optionA: "Switzerland",
-        optionB: "Canada",
-        optionC: "Kenya",
-        optionD: "Egypt",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "المغرب ?",
-        optionA: "Madagascar",
-        optionB: "Cape Town",
-        optionC: "Tanzania",
-        optionD: "Morocco",
+        question: "من الذي أعطى أول فكرة أساسية عن الهاتف؟",
+		imgSrc : "KBC2IMAGES/trans.png",
+        optionA: "Charles Bourseul",
+        optionB: "Frenchman Charles",
+        optionC: "Alexander Graham Bell",
+        optionD: "Antonio Meucci ",
         correctOption: "optionD"
     },
 
     {
-        question: `" الامارات العربية المتحدة`,
-        optionA: "Britan",
-        optionB: "Austria",
-        optionC: "Germany",
-        optionD: "UAE",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "المملكة المتحدة ?",
-        optionA: "France",
-        optionB: "California",
-        optionC: "UK",
-        optionD: "Italy",
+        question: "كم مثلثات في هذا الشكل؟",
+		imgSrc : "KBC2IMAGES/1.PNG",
+        optionA: "أحد عشر مثلثا",
+        optionB: "سبعة مثلثات",
+        optionC: "ثلاثة عشر مثلثا",
+        optionD: "تسعة مثلثات",
         correctOption: "optionC"
     },
 
     {
-        question: "الولايات المتحدة?",
-        optionA: "US",
-        optionB: "Mongolia",
-        optionC: "Czech Republic",
-        optionD: "Poland",
+        question: "Pythagoras was credited with many mathematical and scientific discoveries,which includes:",
+		imgSrc : "KBC2IMAGES/trans.png",
+        optionA: "Pythagorean theorem",
+        optionB: "Theory of Proportions",
+        optionC: "Sphericity of the Earth",
+        optionD: "All of the above",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "ما يقال لهذا الشكل؟",
+		imgSrc : "KBC2IMAGES/2.JPG",
+        optionA: "هرم",
+        optionB: "منشار",
+        optionC: "موشور",
+        optionD: "مربع المثلثات",
         correctOption: "optionA"
+    },
+
+    {
+        question: "What is the origin of word GEOMETRY?",
+		imgSrc : "KBC2IMAGES/trans.png",
+        optionA: "From old latin μετρία for ‘shapes",
+        optionB: "From greek metr-gio for calculating",
+        optionC: "from Ancient Greek geōmetría for 'land measurement'",
+        optionD: "None of the above",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "ما هو محيط هذا المستطيل؟",
+		imgSrc : "KBC2IMAGES/3.PNG",
+        optionA: "ستة وعشرون سنتيمترا",
+        optionB: "ثلاثة عشر سنتيمترا",
+        optionC: "اربعون سنتيمترا",
+        optionD: "لا شئ مما سبق",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Who is known as the father of geometry?",
+		imgSrc : "KBC2IMAGES/trans.png",
+        optionA: "Ptolemy of Rome",
+        optionB: "Plato of Greece",
+        optionC: "Aristotle of greece",
+        optionD: "Euclid of Alexandria",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "What do you call Parallelogram in Arabic?",
+		imgSrc : "KBC2IMAGES/4.PNG",
+        optionA: "منحرف الاضلاع",
+        optionB: "متفق الاضلاع",
+        optionC: "متساوي الاضلاع",
+        optionD: "متزاوي الاضلاع",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "لأي شكل من هذه الأشكال – الأضلاع المتساوية؟",
+		imgSrc : "KBC2IMAGES/trans.png", 
+        optionA: "المخمس المنتظم",
+        optionB: "المثمن المنتظم",
+        optionC: "المسدس المنتظم",
+        optionD: "المربع",
+        correctOption: "optionA,B,C,D"
     },
 
 ]
@@ -141,6 +143,7 @@ function NextQuestion(index) {
     document.getElementById("option-two-label").innerHTML = currentQuestion.optionB;
     document.getElementById("option-three-label").innerHTML = currentQuestion.optionC;
     document.getElementById("option-four-label").innerHTML = currentQuestion.optionD;
+	document.getElementById("qImg").src = currentQuestion.imgSrc;
 
 }
 

@@ -1,4 +1,14 @@
 @charset "utf-8";
+
+#qImg{
+    width : 100px;
+    height : 100px;
+    left : 0px;
+    top : 0px;
+	display: flex;
+	margin: 0 15px 0 -10px
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +32,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     background: url('2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,8 +39,8 @@ main{
 }
 
 .game-quiz-container{
-    width: 40rem;
-    height: 30rem;
+    width: 60rem;
+    height: 40rem;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -53,8 +62,8 @@ main{
 }
 
 .game-question-container{
-    width: 80%;
-    height: 8rem;
+    width: 100%;
+    height: 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,8 +87,8 @@ main{
 }
 
 .game-options-container span{
-    width: 45%;
-    height: 3rem;
+    width: 50%;
+    height: 5rem;
     border: 2px solid darkgray;
     border-radius: 20px;
     overflow: hidden;
