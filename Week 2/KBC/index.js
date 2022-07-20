@@ -31,7 +31,7 @@ const questions = [
 
     {
         question: "كم مثلثات في هذا الشكل؟",
-		imgSrc : "KBC2IMAGES/1.PNG",
+		imgSrc : "../KBC/KBC2IMAGES/1.png",
         optionA: "أحد عشر مثلثا",
         optionB: "سبعة مثلثات",
         optionC: "ثلاثة عشر مثلثا",
@@ -51,7 +51,7 @@ const questions = [
 
     {
         question: "ما يقال لهذا الشكل؟",
-		imgSrc : "KBC2IMAGES/2.JPG",
+		imgSrc : "../KBC/KBC2IMAGES/2.jpg",
         optionA: "هرم",
         optionB: "منشار",
         optionC: "موشور",
@@ -71,7 +71,7 @@ const questions = [
 
     {
         question: "ما هو محيط هذا المستطيل؟",
-		imgSrc : "KBC2IMAGES/3.PNG",
+		imgSrc : "../KBC/KBC2IMAGES/3.png",
         optionA: "ستة وعشرون سنتيمترا",
         optionB: "ثلاثة عشر سنتيمترا",
         optionC: "اربعون سنتيمترا",
@@ -91,7 +91,7 @@ const questions = [
 
     {
         question: "What do you call Parallelogram in Arabic?",
-		imgSrc : "KBC2IMAGES/4.PNG",
+		imgSrc : "../KBC/KBC2IMAGES/4.png",
         optionA: "منحرف الاضلاع",
         optionB: "متفق الاضلاع",
         optionC: "متساوي الاضلاع",
